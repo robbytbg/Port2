@@ -4,6 +4,8 @@
 2. Utilizing the Quick Database Diagram, **Open SQL Script from** 
   - I utilized the `CREATE TABLE} commands and foreign key relationships included in the SQL script that Quick Database Diagram created.
 
+![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Engineering(ETL)/Etl.PNG)
+
 3. **Execute SQL Script:** 
   - To build the required tables and relationships in my chosen database, I ran the SQL script in MySQL Workbench.
 
@@ -83,3 +85,19 @@ REFERENCES `Sub_category` (`sub_category_id`);
 6. **Columns on the Map:**
   - The wizard tried to automatically translate my CSV file's columns to my MySQL table's columns. I checked to make sure the mapping was accurate.
 
+7. **Testing :**
+  - Filter Data for Campaigns Launched After a Specific Date:
+      -Retrieve campaigns launched after January 1, 2023.
+        ```
+        SELECT * FROM porto.campaign WHERE launched_at > '2021-01-01' LIMIT 5;
+
+        ```
+  - Aggregate Functions to Get Insights:
+    - Find the average goal and pledged amounts for all campaigns.
+        ```
+        SELECT
+        AVG(goal) AS avg_goal,
+        AVG(pledged) AS avg_pledged
+        FROM porto.campaign;
+
+        ```
