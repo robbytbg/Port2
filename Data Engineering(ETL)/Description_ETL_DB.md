@@ -86,15 +86,18 @@ REFERENCES `Sub_category` (`sub_category_id`);
   - The wizard tried to automatically translate my CSV file's columns to my MySQL table's columns. I checked to make sure the mapping was accurate.
 
 7. **Testing :**
+
   - Filter Data for Campaigns Launched After a Specific Date:
     
       -Retrieve campaigns launched after January 1, 2023.
+    
         ```
-    SELECT * FROM porto.campaign WHERE launched_at > '2021-01-01' LIMIT 5;
+        SELECT * FROM porto.campaign WHERE launched_at > '2021-01-01' LIMIT 5;
         ```
   - Aggregate Functions to Get Insights:
     
     - Find the average goal and pledged amounts for all campaigns.
+      
         ```
         SELECT
         AVG(goal) AS avg_goal,
@@ -102,3 +105,29 @@ REFERENCES `Sub_category` (`sub_category_id`);
         FROM porto.campaign;
 
         ```
+
+  - Join Tables to Retrieve Detailed Information:
+    
+    - Retrieve campaign information along with associated category and sub-category names.
+   
+      ```
+      SELECT
+      c.cf_id,
+      c.company_name,
+      c.blurb,
+      c.goal,
+      c.pledged,
+      c.outcome,
+      c.backers_count,
+      c.country,
+      c.currency,
+      c.launched_at,
+      c.deadline,
+      ct.category,
+      sct.sub_category
+      FROM porto.campaign c
+      JOIN porto.category ct ON c.category_id = ct.category_id
+      JOIN porto.sub_category sct ON c.sub_category_id = sct.sub_category_id
+      LIMIT 5;
+
+      ``` 
