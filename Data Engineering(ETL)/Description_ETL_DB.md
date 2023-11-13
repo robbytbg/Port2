@@ -94,6 +94,9 @@ REFERENCES `Sub_category` (`sub_category_id`);
         ```
         SELECT * FROM porto.campaign WHERE launched_at > '2021-01-01' LIMIT 5;
         ```
+    
+      ![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Engineering(ETL)/Others/DB_OP.PNG)
+
   - Aggregate Functions to Get Insights:
     
     - Find the average goal and pledged amounts for all campaigns.
@@ -105,6 +108,9 @@ REFERENCES `Sub_category` (`sub_category_id`);
         FROM porto.campaign;
 
         ```
+
+        ![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Engineering(ETL)/Others/DB_OP2.PNG)
+
 
   - Join Tables to Retrieve Detailed Information:
     
@@ -130,4 +136,7 @@ REFERENCES `Sub_category` (`sub_category_id`);
       JOIN porto.sub_category sct ON c.sub_category_id = sct.sub_category_id
       LIMIT 5;
 
-      ``` 
+      ```
+
+      ![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Engineering(ETL)/Others/DB_OP3.PNG)
+
