@@ -87,6 +87,7 @@ def convert_weight_to_kg(weight):
         kg_value = lbs_value * 0.45359237
         return kg_value
 ```
+![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Cleaning/related%20images/DataCleaning5.PNG)
 
 7. Monetary Values Conversion:
    - Took numeric values in euros for the "Release Clause," "Wage," and "Value" columns.
@@ -136,6 +137,7 @@ def sort_row(row):
 
 data['Positions'] = data['Positions'].apply(sort_row)
 ```
+![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Cleaning/related%20images/DataCleaning4.PNG)
 
 10. Saving the Cleaned Data:
     - Used `data.to_csv('cleaned fifa21.csv')} to save the cleaned dataset to a new CSV file called 'cleaned fifa21.csv'.
