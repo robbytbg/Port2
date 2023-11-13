@@ -1,9 +1,10 @@
-Greetings from my extensive dashboard, which offers an in-depth look at the exciting world of chartered bicycles! In addition to capturing the subtleties of the season, we have created a visual story that delves into the main variables affecting the demand for chartered bicycles. Let's explore my interactive dashboard together for an enlightening experience.
-
 ![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Visualization/Dashboard.PNG)
 
+Greetings from my extensive dashboard, which offers an in-depth look at the exciting world of chartered bicycles! In addition to capturing the subtleties of the season, we have created a visual story that delves into the main variables affecting the demand for chartered bicycles. Let's explore my interactive dashboard together for an enlightening experience.
 
 **Chart of Chartered Bicycle Seasonal Distribution**:
+
+
 
 The bar chart elegantly tells the seasonal tale of chartered bicycles at a glance. The color-coding of each season is a visual feast that makes the cyclical pattern of bicycle demand instantly apparent. You may add an interactive overlay that puts you in charge of your own exploration by hovering over the bars to see detailed information into how chartered bicycles are used in particular weather conditions.
 
