@@ -1,0 +1,21 @@
+1. **Select a Database:** 
+  - I've made sure to choose the database from which I wish to import the information. Using the "Navigator" panel, I completed this.
+
+2. Utilizing the Quick Database Diagram, **Open SQL Script from** 
+  - I utilized the `CREATE TABLE} commands and foreign key relationships included in the SQL script that Quick Database Diagram created.
+
+3. **Execute SQL Script:** 
+  - To build the required tables and relationships in my chosen database, I ran the SQL script in MySQL Workbench.
+
+4. Click to launch the Table Data Import Wizard: 
+  - I navigated to the particular database where I wanted to import the data using the "Navigator" panel.
+  - I made a new table or performed a right-click on the table where I wanted to import the data.
+  - I went with the "Table Data Import Wizard."
+
+5. **Select CSV File:** 
+  - I selected the "Import from File" option in the "Table Data Import Wizard."
+  - I choose the data-containing CSV file.
+
+6. **Columns on the Map:**
+  - The wizard tried to automatically translate my CSV file's columns to my MySQL table's columns. I checked to make sure the mapping was accurate.
+
