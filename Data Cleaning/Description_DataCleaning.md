@@ -11,9 +11,13 @@ data=pd.read_csv('/content/fifa21 raw data v2.csv')
 ```
 data.info()
 ```
+![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Cleaning/related%20images/DataCleaning1.PNG)
+
 2. Columns for Handling:
    - At indices 3, 4, and 18, superfluous columns were removed with the help of `data.drop(data.columns[[3, 4, 18]], axis=1, inplace=True)`.
    - Zeros were used to fill in the missing values in the "Hits" column: `data['Hits'].fillna(0, inplace=True)`.
+
+![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Cleaning/related%20images/DataCleaning2.PNG)
 
 3. Formatting and Renaming Columns:
    - Used `data=data.rename(columns={'LongName':'FullName'})` to rename the 'LongName' column to 'FullName'.
@@ -103,6 +107,7 @@ def convert_to_numeric(converto):
 
     return '{:.0f}'.format(numeric_value)
 ```
+![alt text](https://github.com/robbytbg/Port2/blob/main/Data%20Cleaning/related%20images/DataCleaning3.PNG)
 
 8. Numeric Consistency:
    - To guarantee consistent numerical representation, star symbols were eliminated from the 'IR', 'SM', and 'W/F' columns.
