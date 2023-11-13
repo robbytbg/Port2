@@ -2,6 +2,12 @@ Step 1: Investigating and loading data
 
 Importing necessary libraries like NumPy, Matplotlib, and Pandas was how I got my project started. My dataset, `classification_in_asteroseismology.csv,` was loaded into a DataFrame (`df`) using Pandas. Asteroseismology-related data is included in this dataset; features are labeled in `y` and saved in `X`.
 
+```
+df=pd.read_csv('/content/classification_in_asteroseismology.csv')
+X = df.iloc[:, 1:].values
+y = df.iloc[:, 0].values
+```
+
 Step 2: Preparing the Data
 
 I used `train test split` from scikit-learn to divide my data into training and testing sets in order to get it ready for machine learning. The features were then standardized by applying feature scaling with `StandardScaler`, making sure the features had a mean of 0 and a standard deviation of 1. Support Vector Machines (SVM) and other machine learning algorithms operate best when this step is followed.
