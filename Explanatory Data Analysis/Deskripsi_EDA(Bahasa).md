@@ -14,7 +14,7 @@ Langkah 3: Analisis Korelasi
 
 Untuk menyelidiki hubungan antara berbagai karakteristik numerik, saya membuat peta panas menggunakan matriks korelasi (`sns.heatmap(df.corr(), annot=True)`). Dengan menggunakan alat grafis ini, saya dapat menemukan hubungan dan pola yang mungkin ada.
 
-![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/eda3.PNG)
+![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/eda3.png)
 
 Langkah 4: Analisis berdasarkan Negara (Indonesia)
 
