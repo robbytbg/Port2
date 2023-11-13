@@ -20,23 +20,22 @@ Step 4: Analysis by country (Indonesia)
 
 I zipped in on Indonesia and searched the DataFrame for rows that had the word `Indonesia`. I made a line plot to show population trends over time by selecting pertinent population columns, transposing the data for simpler charting, and creating the figure.
 
-![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/EDA4.PNG)
+![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/EDA4.png)
 
 Step 5: Analysis of the Top 5 Countries
 
 I made a bar plot to compare the populations of the top 5 nations in terms of population in 2022. This made the relative sizes of these populous countries easier for me to understand.
 
-![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/EDA5.PNG)
+![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/EDA5.png)
 
 Step 6: Analysis by Continent
 
 I found the mean population for each year by dividing the data by continent. Next, a line plot was made to show the trends in population across continents. In addition, I displayed the population data distribution for each continent using a boxplot.
 
-![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/EDA6.PNG)
+![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/EDA6.png)
 
 Step 7: Population Aggregation by Continent
 
 I combined the population by continent in order to have a worldwide picture. I made a pie chart to show how the population of the globe would be distributed by region in 2022. Customizations improved the aesthetic appeal and made it simpler to understand the distribution of the world's population.
 
-![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/EDA7.PNG)
-
+![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/EDA7.png)
