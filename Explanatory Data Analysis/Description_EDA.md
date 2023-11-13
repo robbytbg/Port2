@@ -14,7 +14,7 @@ Step 3: Correlation Analysis
 
 In order to investigate the connections among various numerical characteristics, I created a heatmap using the correlation matrix (`sns.heatmap(df.corr(), annot=True)`). I was able to find possible relationships and patterns with the use of this graphic tool.
 
-![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/eda3.PNG)
+![alt text](https://github.com/robbytbg/Port2/blob/main/Explanatory%20Data%20Analysis/Related%20Images/eda3.png)
 
 Step 4: Analysis by country (Indonesia)
 
