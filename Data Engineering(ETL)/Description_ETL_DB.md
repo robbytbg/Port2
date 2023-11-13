@@ -87,12 +87,13 @@ REFERENCES `Sub_category` (`sub_category_id`);
 
 7. **Testing :**
   - Filter Data for Campaigns Launched After a Specific Date:
+    
       -Retrieve campaigns launched after January 1, 2023.
         ```
-        SELECT * FROM porto.campaign WHERE launched_at > '2021-01-01' LIMIT 5;
-
+    SELECT * FROM porto.campaign WHERE launched_at > '2021-01-01' LIMIT 5;
         ```
   - Aggregate Functions to Get Insights:
+    
     - Find the average goal and pledged amounts for all campaigns.
         ```
         SELECT
