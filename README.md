@@ -20,7 +20,27 @@ I converted crowdfunding data in an efficient manner for my ETL (Extract, Transf
    
 This comprehensive Exploratory Data Analysis (EDA) investigation of global population data proceeded methodically through key phases. I built a strong analytical foundation by carefully exploring the dataset before moving on to loading, descriptive statistics, and correlation analysis. The data was thoughtfully sorted and shown to highlight the top nations and provide detailed insights into demographic changes. An in-depth analysis of particular nations, like Indonesia, offered a window into regional patterns. Global view was expanded with continent-wise analysis that included mean population trends and dispersion representations. A visually stunning pie chart that showed the world population distribution per continent in 2022 was displayed in the finale. This extensive EDA produced a deep and insightful investigation of global population changes by skillfully fusing statistical depth with eye-catching images.
 
+# Rangkuman Projek(BAHASA)
 
+1. **Machine Learning**
+
+   Penggabungan pemuatan data, pra-pemrosesan, pelatihan model SVM, visualisasi 3D, penilaian kinerja, dan analisis prediktif terpadu secara lancar dalam proyek saya. Pemahaman komprehensif tentang kemampuan model dan kemungkinan penanganan titik data tambahan disediakan dengan menggunakan plot pencar 3D bersama dengan metode evaluasi yang kuat.
+
+2. **Visualisasi Data**
+
+   Proyek Power BI tentang sepeda berkonsep menyelidiki tren pemanfaatan dan variabel relevan secara menyeluruh. Visualisasi memberikan gambaran yang jelas tentang pola, permintaan musiman, dan efek variabel seperti kecepatan angin, suhu, dan kelembaban. Contoh visualisasi termasuk diagram garis dan kolom berkelompok, diagram batang berkode warna, diagram corong, diagram lingkaran, dan grafik kelembaban. Dasbor interaktif memberikan wawasan mendalam tentang dinamika penggunaan sepeda berkonsep, mendorong eksplorasi.
+
+3. **Pembersihan Data**
+
+   Saya dengan cermat memilih dan memperbaiki dataset untuk proyek pembersihan data FIFA21 ini untuk menjamin akurasi dan konsistensinya. Prosedur ini melibatkan penanganan nilai-nilai yang hilang, penghapusan kolom yang tidak diperlukan secara strategis, dan membuat perubahan format untuk kejelasan yang lebih baik. Untuk meningkatkan kejelasan, kolom diatur ulang dan indikator status pemain ditambahkan. Konsistensi numerik dijamin melalui standarisasi unit, konversi nilai uang, dan penghapusan simbol. Kolom 'Positions' dibersihkan dan diurutkan secara alfabetis untuk meningkatkan dataset. Hasilnya adalah dataset yang disempurnakan yang dapat disimpan sebagai "cleaned fifa21.csv" dan siap untuk pemodelan dan analisis yang lebih efisien dengan integritas data yang lebih baik.
+
+4. **Rekayasa Data (ETL)**
+
+   Saya mengubah data crowdfunding dengan cara yang efisien untuk proyek ETL (Extract, Transform, Load) dengan memecah data kategori, membuat pengidentifikasi unik, dan kemudian menggabungkannya kembali ke dataset asli. Setelah dibersihkan, diformat, dan diperbaiki, data dimasukkan ke dalam file CSV dan disimpan. Secara bersamaan, saya membuat kolom yang berlabel "first_name" dan "last_name" setelah mengekstrak dan mengorganisir data JSON. File CSV lain berisi informasi kontak yang diatur. Selain itu, saya membuat database MySQL dengan perintah SQL dengan menggunakan skema yang diberikan. Pengujian menyeluruh menjamin integritas database dan pemulihan data yang sukses. Proyek ETL ini mencakup organisasi data, integrasi, dan penyempurnaan data yang menyeluruh untuk analisis mendatang.
+
+5. **Analisis Data Eksploratif (EDA)**
+
+   Investigasi Analisis Data Eksploratif (EDA) yang komprehensif tentang data populasi global berlangsung secara metodis melalui tahap-tahap kunci. Saya membangun fondasi analitis yang kuat dengan hati-hati menjelajahi dataset sebelum beralih ke pemuatan, statistik deskriptif, dan analisis korelasi. Data dipilah dan ditampilkan dengan cermat untuk menyoroti negara-negara teratas dan memberikan wawasan rinci tentang perubahan demografis. Analisis mendalam terhadap negara-negara tertentu, seperti Indonesia, memberikan wawasan tentang tren regional. Analisis berbasis benua, termasuk tren populasi rata-rata dan representasi distribusi, memperluas pandangan global. Puncaknya adalah diagram lingkaran yang memukau, dengan indahnya menggambarkan distribusi populasi dunia per benua pada tahun 2022. EDA yang komprehensif ini menghasilkan penyelidikan mendalam dan berwawasan tentang perubahan populasi global dengan menggabungkan kedalaman statistik dengan visualisasi yang menarik.
 
 
 
