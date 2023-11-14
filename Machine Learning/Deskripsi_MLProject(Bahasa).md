@@ -1,3 +1,5 @@
+# Machine Learning
+
 Langkah 1: Menyelidiki dan Memuat Data
 
 Saya memulai proyek dengan mengimpor perpustakaan yang diperlukan seperti NumPy, Matplotlib, dan Pandas. Dataset saya, `classification_in_asteroseismology.csv`, dimuat ke dalam DataFrame (`df`) menggunakan Pandas. Data terkait asteroseismologi termasuk dalam dataset ini; fitur diberi label dalam `y` dan disimpan di `X`.
