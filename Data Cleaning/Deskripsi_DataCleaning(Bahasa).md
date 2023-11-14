@@ -1,4 +1,4 @@
-#Data Cleaning
+# Data Cleaning
 
 1. Memuat Data:
    - Saya memulai dengan menggunakan Pandas untuk memuat dataset FIFA21 dari file CSV.
