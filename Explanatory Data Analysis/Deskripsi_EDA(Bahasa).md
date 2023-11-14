@@ -1,3 +1,5 @@
+# Explanatory Data Analysis
+
 Langkah 1: Investigasi Awal
 
 Untuk memulai, saya memuat dataset `world_population.csv` ke dalam Pandas DataFrame (`df`). Saya melihat lima baris terakhir (`df.tail(5)`), melihat informasi dasar dataset (`df.info()`), dan mendapatkan statistik deskriptif (`df.describe()`) untuk memahami data tersebut. Untuk memastikan kualitas data, saya juga menghitung jumlah nilai unik di setiap kolom (`df.nunique()`) dan mencari nilai yang hilang (`df.isnull().sum()`).
